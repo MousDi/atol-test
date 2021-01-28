@@ -1,0 +1,35 @@
+{
+  "name": "atol-nodejs-mango",
+  "version": "1.0.0",
+  "description": "Node.js Restful CRUD API with Node.js, Express and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MousDi/atol-test.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "rest",
+    "api"
+  ],
+  "author": "moustapha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MousDi/atol-test/issues"
+  },
+  "homepage": "https://github.com/MousDi/atol-test#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.13",
+    "nodemon": "^2.0.7",
+    "socket.io": "^3.1.0"
+  }
+}
